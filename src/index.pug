@@ -1,0 +1,21 @@
+doctype html(lang='en')
+head
+  meta(charset='UTF-8') 
+  title Buylist 
+  link(rel='stylesheet', href='https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Teko&family=Work+Sans:wght@300&display=swap')
+  link(rel='stylesheet', href='./style.css')
+body
+  // partial:index.partial.html
+  #buylist
+    h1 My Buylist 購物清單 
+    .buy_item.control_panel
+      label 商品名  
+      input#input_name(placeholder='itemsname...') 
+      label 價格  
+      input#input_price(placeholder='itemsprice...')
+      span.addbtn +新增 
+    #items_list
+  // partial
+script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js')
+script(src='./script.js')
+    
