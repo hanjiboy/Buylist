@@ -1,12 +1,12 @@
 var shoplist={};
 
-shoplist.name= "My Buylist 購物清單";
+shoplist.name= "My Buylist 電腦周邊購物清單";
 shoplist.time= "2021/11/24";
 shoplist.list=[
-  {name: "吹風機", price: 1500},
-  {name: "麥克風", price: 1600},
+  {name: "電競滑鼠", price: 900},
+  {name: "桌上型麥克風", price: 1600},
   {name: "筆記型電腦", price: 35000},
-  {name: "Iphone13", price: 30000},
+  {name: "桌上型電腦", price: 45000},
   {name: "電競鍵盤", price: 4000}
 ];
 
